@@ -1,18 +1,46 @@
-/* Selector de elemento haciendo referencia a etiqueta div */
-div {
-    width: 300px;     /* Declaración de la propiedad Width(ancho),le daremos el valor de 300px */
-    height: 100px;    /* Declaración de la propiedad height(alto),le daremos el valor de 100px */
-    padding: 10px;    /* Declaración de la propiedad padding que genera espacio alrededor del contenido,le daremos el valor de 10px */
-    margin: 10px;     /* Declaración de la propiedad margin que genera espacio alrededor del borde,le daremos el valor de 10px */
-    display: block;   /* Declaración de la propiedad display que especifica el tipo de caja que usaremos para la etiqueta div,que sera de tipo bloque */
-   
+body {
+    font-family: sans-serif;
+    padding: 10px;
+ }
+
+header h1 {
+    margin-bottom: 3px;
+    margin-top: 0px;
+ }
+ header hr {
+    margin-top: 0px;
+    margin-bottom: 0px;
+ }
+ .biography {
+    width: 78%;
+    display: inline-block;
+    font-size: 14px;
+    line-height: 1.6;
+ }
+.summary {
+    display: inline-block;
+    vertical-align: top;
+    width: 20%;
+    margin-top: 15px;
 }
-/* Selector de clase yellow que se como atributo en la etiqueta div */
-.yellow {
-    background-color: #ffc107;    /* Declaración de la propiedad background-color para establecer el color de fondo,le daremos el valor del color en HEX */
-}
-/* Selector de clase black que se como atributo en la etiqueta div */
-.black {
-    background-color: #2b2b2b;    /* Declaración de la propiedad background-color para establecer el color de fondo,le daremos el valor del color en HEX */
-    color: white; /* Declaración de la propiedad color para establecer el color del texto,le daremos como valor el nombre del color */
-}
+
+.summary table {
+    border: 1px solid #a2a9b1 ;
+    background-color: #f8f9fa ;
+    padding: 1px;
+    font-size: 14px;
+ }
+
+.summary table thead th {
+    background-color: #80C4DE ;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    font-size: 16px;
+ }
+
+.summary table tbody tr:first-child {
+    text-align: center;
+ }
+ .summary table tbody th {
+    text-align: left;
+ }

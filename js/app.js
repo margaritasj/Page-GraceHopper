@@ -1,1 +1,1 @@
-alert('Bienvenidos, en esta web se mostrara la segunda parte de Banderas display.');
+alert('Bienvenidos, esta es una replica de Wikipedia - Grace Hopper');
